@@ -12,8 +12,7 @@
  require('hardhat-contract-sizer');
  require('solidity-coverage');
  
-  const mnemonic = fs.readFileSync('mnemonic', 'utf-8');
- // secret
+ const mnemonic = fs.readFileSync('mnemonic', 'utf-8');
  
  module.exports = {
  
