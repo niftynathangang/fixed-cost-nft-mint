@@ -1,0 +1,9 @@
+mnemonic
+build/
+node_modules/
+coverage.json
+coverage/
+artifacts/
+cache/
+corpus/
+crytic-export/
