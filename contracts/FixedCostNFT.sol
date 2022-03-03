@@ -45,6 +45,7 @@ contract FixedCostNFT is ERC721, IERC2309 {
         
         _balances[collectionStatus.defaultOwner] += amount;        
         collectionStatus.amountCreated += uint88(amount);        
+        collectionStatus.isMinted = true;
 
         emit ConsecutiveTransfer(1, amount, address(0), collectionStatus.defaultOwner);
     }  
